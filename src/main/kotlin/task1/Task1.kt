@@ -2,7 +2,7 @@ package task1
 
 import util.Input
 
-class Main {
+class Task1 {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
