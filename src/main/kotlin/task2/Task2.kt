@@ -2,15 +2,10 @@ package task2
 
 import util.Input
 
-class Task2 {
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val input = Input.readStrings("day2.txt")
-            println(finalPosition1(input));
-            println(finalPosition2(input));
-        }
-    }
+fun main() {
+    val input = Input.readStrings("day2.txt")
+    println(finalPosition1(input));
+    println(finalPosition2(input));
 }
 
 private fun finalPosition1(input: List<String>): Int {

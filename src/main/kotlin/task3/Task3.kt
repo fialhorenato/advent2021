@@ -2,15 +2,10 @@ package task3
 
 import util.Input
 
-class Task3 {
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val input = Input.readStrings("day3.txt")
-            println(firstTask(input))
-            println(secondTask(input))
-        }
-    }
+fun main() {
+    val input = Input.readStrings("day3.txt")
+    println(firstTask(input))
+    println(secondTask(input))
 }
 
 private fun firstTask(input : List<String>): Int {
